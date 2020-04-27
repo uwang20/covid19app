@@ -1,0 +1,25 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.recovered-text-color{
+  color:#8AC92A;
+}
+
+.death-text-color{
+  color:#E93837;
+}
+
+.full-view{
+  height: 100vh;
+}
+
+.top-country-scroll{
+  height:200px;
+}
+
+.color-field:nth-child(even){
+   @apply bg-green-200;
+}
